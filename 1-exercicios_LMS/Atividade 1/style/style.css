@@ -1,0 +1,18 @@
+h1{
+animation: transition 1s infinite;
+}
+@keyframes transition {
+    0%{
+        color: red;
+    }
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: red;
+    }
+}
+
+table{
+    text-align: center;
+}
