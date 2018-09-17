@@ -1,0 +1,305 @@
+*{ margin:0; padding:0; border:0;}
+
+h1{
+	text-align:center;
+	color:rgb(102,102,102);
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topo{
+	height: 204px;
+	background:url(../images/texturas/bgtopo2.png) repeat;
+}
+
+#site{
+	background:url(../images/texturas/bgtopo.png) repeat;
+}
+
+#degrade{
+	background: -moz-radial-gradient(center, ellipse cover, rgba(249,252,247,0.8) 0%, rgba(245,249,240,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(249,252,247,0.8)), color-stop(100%,rgba(245,249,240,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(249,252,247,0.8) 0%,rgba(245,249,240,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(249,252,247,0.8) 0%,rgba(245,249,240,0) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(249,252,247,0.8) 0%,rgba(245,249,240,0) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(249,252,247,0.8) 0%,rgba(245,249,240,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccf9fcf7', endColorstr='#00f5f9f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#menu{
+	margin:0;
+	padding:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:50px;
+	border-top:1px solid rgba(0,0,0,0.3);
+	border-bottom:1px solid rgba(0,0,0,0.3);
+	background:url(../images/texturas/bgmenu.png) repeat;
+	box-shadow:inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25),inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+#menu ol{
+	width:470px;
+	height:50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu ol li{
+	display:inline;
+	background: rgba(0,0,0,0.1);
+}
+
+#menu ol li a{
+	color:#E6E6E6;
+	font:18px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float:left;
+	text-decoration:none;
+	padding:14px;
+	border-right:1px solid rgba(0,0,0,0.3);
+	border-left:1px solid rgba(0,0,0,0.3);
+}
+
+#menu ol li a:hover{
+	background: rgba(0,0,0,0.3);
+	color:white;
+}
+
+#carrossel{
+	height:600px;
+	margin:auto;
+}
+#rodape{
+	height:100px;
+	background:url(../images/texturas/bgrodape.png) repeat;
+	text-align:center;
+}
+
+#rodape p{
+	padding-top:50px;
+	color:rgba(0,0,0,0.8);
+}
+
+#ilustracoes{
+	text-align:center;
+}
+
+#ilustracoes ul{
+	list-style-type:none;
+}
+
+#ilustracoes ul p{
+	border-top:1px solid rgb(102,102,102);
+	padding-top:3px;
+}
+
+#ilustracoes .paragrafos{
+	width:40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:rgb(102,102,102);
+}
+
+#ilustracoes ul li .primeiraimagem{
+	padding-top:20px;
+}
+
+#ilustracoes ul img{
+	padding-bottom:10px;
+	padding-top:70px;
+}
+
+#origamis{
+	text-align:center;
+}
+
+#origamis ul{
+	list-style-type:none;
+}
+
+#origamis ul p{
+	border-top:1px solid rgb(102,102,102);
+	padding-top:3px;
+}
+
+#origamis .paragrafos{
+	width:40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:lato;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:rgb(102,102,102);
+}
+
+#origamis ul img{
+	padding-bottom:10px;
+	padding-top:70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#origamis ul li .primeiraimagem{
+	padding-top:20px;
+}
+
+#contato{
+	padding-top:20px;
+	height:250px;
+	width:400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contato .campos{
+	float:right;
+	width:250px;
+}
+
+#contato .label{
+	color:rgb(51,51,51);
+}
+
+#contato ol{
+	width:80px;
+	height:50px;
+	padding-top:100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	top:60;
+}
+
+#contato ol li{
+	display:inline;
+}
+
+#contato textarea{
+	height:100px;
+}
+
+#contatop{
+	width:400px;
+	height:230px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+#contatop p{
+	padding-bottom:10px;
+	color:rgb(51,51,51);
+}
+
+#prelogo{
+	width:81px;
+	height:70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+#logos{
+	position:relative;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.logo1{
+	background-image: url(../images/logo/fblogo.png);
+	background-size:30px 30px;
+	width:30px; /*image width*/
+	height:30px; /*image height*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.logo1:hover{
+	background-image: url(../images/logo/fblogo2.png);
+}
+
+.logo2{
+	background-image: url(../images/logo/instalogo.gif);
+	background-size:30px 30px;
+	width:30px; /*image width*/
+	height:30px; /*image height*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.logo2:hover{
+	background-image: url(../images/logo/instalogo2.png);
+}
+
+#autor{
+	height:513px;
+	width:500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#autor img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#autor p{
+	text-align:center;
+}
+
+#form > ol{
+	width: 145px;
+}
+
+#enviar{
+	padding: 7px 15px;
+	background-color: rgb(180, 180, 180);
+	border-radius: 5px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#limpar{
+	padding: 7px 15px;
+	background-color: rgb(180, 180, 180);
+	border-radius: 5px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#enviar:hover{
+	background-color: rgb(0, 178, 202);
+	color: white;
+	cursor: pointer;
+}
+
+#limpar:hover{
+	background-color: rgb(255, 0, 43);
+	color: white;
+	cursor: pointer;
+}
